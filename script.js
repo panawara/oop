@@ -160,7 +160,7 @@ $(function(){
 
 	function initialize() {
 		var dashboard = $('section.main');
-		var inputAddBoard = $('<input>').addClass('add-board').attr('placeholder', 'Dodaj tablicę...');
+		var inputAddBoard = $('<input>').addClass('add-board').attr('placeholder', 'Add board...');
 		var btnAddBoard = $('<button>').addClass('btn btn-add-board').text(' + ');
 
 		btnAddBoard.click(function() {
